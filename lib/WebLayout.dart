@@ -98,7 +98,15 @@ class WebLayout extends StatelessWidget {
                             style: ElevatedButton.styleFrom(
                                 backgroundColor:
                                     const Color.fromARGB(246, 183, 173, 173)),
-                            onPressed: () {},
+                            onPressed: () {
+                              AlertDialog al =
+                                  const AlertDialog(content: Subscribe());
+                              showDialog(
+                                  context: context,
+                                  builder: (context) {
+                                    return al;
+                                  });
+                            },
                             child: const Text('LOGIN'))),
                   ])),
           const SizedBox(
@@ -194,7 +202,7 @@ class WebLayout extends StatelessWidget {
                                   ),
                                   onPressed: () {
                                     AlertDialog al =
-                                        const AlertDialog(content: Subscribe());
+                                        const AlertDialog(content: Login());
 
                                     showDialog(
                                       context: context,
@@ -216,7 +224,7 @@ class WebLayout extends StatelessWidget {
                                       backgroundColor: Colors.white),
                                   onPressed: () {
                                     AlertDialog al =
-                                        const AlertDialog(content: Login());
+                                        const AlertDialog(content: Subscribe());
 
                                     showDialog(
                                         context: context,
