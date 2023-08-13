@@ -119,7 +119,8 @@ class WebLayout extends StatelessWidget {
           BottomNavigationBarItem(
               icon: Icon(Icons.email),
               label: "Email: hafeezullah.shoja@gmail.com"),
-          BottomNavigationBarItem(icon: Icon(Icons.phone), label: ""),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.phone), label: "93799998822"),
         ], backgroundColor: Colors.grey),
       );
     } else {
@@ -257,7 +258,8 @@ class WebLayout extends StatelessWidget {
           BottomNavigationBarItem(
               icon: Icon(Icons.email),
               label: "Email: hafeezullah.shoja@gmail.com"),
-          BottomNavigationBarItem(icon: Icon(Icons.phone), label: ""),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.phone), label: "93799998822"),
         ], backgroundColor: Colors.grey),
       );
     }
