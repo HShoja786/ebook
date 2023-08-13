@@ -121,13 +121,11 @@ class MobLayout extends StatelessWidget {
       bottomNavigationBar:
           BottomNavigationBar(items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(
-            icon: Icon(Icons.copyright),
-            label: '2023 Roshan. All Rights Reserved.'),
+            icon: Icon(Icons.copyright), label: '2023. All Rights Reserved.'),
         BottomNavigationBarItem(
             icon: Icon(Icons.email),
-            label: "Email: hafeezullah.shoja@roshan.af"),
-        BottomNavigationBarItem(
-            icon: Icon(Icons.phone), label: "Phone: 93799998822"),
+            label: "Email: hafeezullah.shoja@gmail.com"),
+        BottomNavigationBarItem(icon: Icon(Icons.phone), label: ""),
       ], backgroundColor: Colors.grey),
     );
   }

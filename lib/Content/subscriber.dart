@@ -20,7 +20,7 @@ class SubscribeState extends State<Subscribe> {
               width: MediaQuery.of(context).size.width * 0.8,
               padding: const EdgeInsets.fromLTRB(20, 20, 20, 20),
               decoration: const BoxDecoration(color: Colors.red),
-              child: const Text("ROSHAN E-BOOK",
+              child: const Text("E-BOOK",
                   style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
